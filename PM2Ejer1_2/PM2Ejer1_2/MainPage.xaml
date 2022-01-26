@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2Ejer1_2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a Envio de Datos Ejercicio 1.2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Entry Keyboard="Plain" Placeholder="Ingrese su Nombre" VerticalOptions="CenterAndExpand" x:Name="txtnombre"/>
+        <Entry Keyboard="Plain" Placeholder="Ingrese sus Apellidos" VerticalOptions="CenterAndExpand" x:Name="txtapellidos"/>
+        <Entry Keyboard="Numeric" Placeholder="Ingrese su Edad" VerticalOptions="CenterAndExpand" x:Name="txtedad"/>
+        <Entry Keyboard="Plain" Placeholder="Ingrese su Email" VerticalOptions="CenterAndExpand" x:Name="txtemail"/>
+        <Button Text="Ver Resultados" x:Name="btnpagina" Clicked="btnpagina_Clicked" />
+    </StackLayout>
+
+</ContentPage>
